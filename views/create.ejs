@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<section class="create-blog container2">
+<h1>Share your awesome experience with us!</h1>
+<form action="/submit" method="POST" enctype="multipart/form-data">
+    <h4>Please choose your Front image: <input type="file" name="image" required/></h4>
+    <br/>
+    <input name="authorname" type="text" class="feedback-input" placeholder="Author Name/Date Published" />
+    <input name="blogtitle" type="text" class="feedback-input" placeholder="Blog Title" />
+    <textarea name="paragraph" class="feedback-input" placeholder="Share your story."></textarea>
+    <input type="submit" value="SUBMIT" />
+</form>
+
+</section>
+<%- include("partials/footer.ejs") %>

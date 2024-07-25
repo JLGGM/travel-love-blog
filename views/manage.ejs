@@ -1,0 +1,35 @@
+<%- include("partials/header.ejs") %>
+<section class="manage-blog container2">
+<h1>Manage Entries</h1>
+<br />
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Author Name/Date Published</th>
+            <th>Blog Title</th>
+            <th>Paragraph</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% messages.forEach(message => { %>
+            <tr>
+                <td><%= message.id %></td>
+                <td><%= message.authorName.length > 35 ? message.authorName.substring(0, 35) + '...' : message.authorName %></td>
+                <td><%= message.blogTitle.length > 50 ? message.blogTitle.substring(0, 50) + '...' : message.blogTitle %></td>
+                <td><%= message.paraGraph.length > 10 ? message.paraGraph.substring(0, 10) + '...' : message.paraGraph %></td>
+                <td><img src="/<%= message.imagePath %>" alt="Image" width="100" /></td>
+                <td>
+                    <a href="/edit?id=<%= message.id %>"><button type="submit">Edit</button></a>
+                    <form action="/delete/<%= message.id %>?_method=DELETE" method="POST" style="display:inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        <% }); %>
+    </tbody>
+</table>
+</section>
+<%- include("partials/footer.ejs") %>

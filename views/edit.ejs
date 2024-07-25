@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+<section class="create-blog container2">
+<body>
+    <h1>Edit Entry</h1>
+    <form action="/update/<%= entry.id %>?_method=PATCH" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="authorname">Author Name:</label>
+            <input class="feedback-input" type="text" id="authorname" name="authorname" value="<%= entry.authorName %>" required>
+        </div>
+        <div>
+            <label for="blogtitle">Blog Title:</label>
+            <input class="feedback-input" type="text" id="blogtitle" name="blogtitle" value="<%= entry.blogTitle %>" required>
+        </div>
+        <div>
+            <label for="paragraph">Paragraph:</label>
+            <textarea class="feedback-input" id="paragraph" name="paragraph" required><%= entry.paraGraph %></textarea>
+        </div>
+        <div>
+            <label for="image">Change Image (optional):</label>
+            <input type="file" id="image" name="image">
+        </div>
+        <br />
+        <div>
+            <button type="submit">Update Entry</button>
+        </div>
+        <br />
+        <div>
+            <a href="/manage"><button type="submit">Cancel</button></a>
+        </div>
+    </form>
+</section>    
+<%- include("partials/footer.ejs") %>

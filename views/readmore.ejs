@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+<section class="content container2">
+    <div class="entry">
+        <img src="/<%= entry.imagePath %>" alt="<%= entry.blogTitle %>" width="auto"; height="300px"; style="margin-bottom: 35px;"/>
+        <br />
+        <h1 style="color: #B43F3F;"><%= entry.blogTitle %></h1>
+        <br />
+        <p><%= entry.paraGraph %></p>
+        <br />
+        <p style="color: #B43F3F;">Written by: <%= entry.authorName %></p>
+    </div>
+</section>   
+<%- include("partials/footer.ejs") %>

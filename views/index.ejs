@@ -1,0 +1,50 @@
+<%- include("partials/header.ejs") %>
+
+<!-- FIRST SECTION -->
+<section class="first-section container">
+    <div class="section1-content">
+        <h1 class="welcome-text">Welcome to Travel Love!</h1>
+        <p id="welcome-paragraph">Discover a space where your experiences shine.</p>
+        <p id="welcome-paragraph2">Whether you're a budding storyteller, a seasoned traveler, or someone with a tale to tell, our platform is your stage. Easily share your own adventures and dive into a world of diverse journeys. Join us today and let your voice be heard!</p>
+        <a href="/create"><button class="welcome-button" type="button">Write a Blog</button></a>
+    </div>
+</section>
+
+<section class="second-section container2">
+    <div class="section2-content container3">
+            <div class="card">
+                <img id="card-image" src="images/shibuya.jpg"/>
+                <div class="card-text">
+                    <p id="card-author">Louie Miranda, July 23, 2024</p>
+                    <p id="card-title">Exploring the Heartbeat of Tokyo: A Day in Shibuya Street</p>
+                    <p id="card-paragraph">Shibuya Street is home to the world-famous Shibuya Crossing, where hundreds of people cross the intersection in a mesmerizing display of organized chaos. Surrounded by towering skyscrapers and neon lights, Shibuya is the epitome of Tokyo's fast-paced urban life. Whether you're shopping in Shibuya 109 or enjoying a coffee at a nearby café, this vibrant district offers endless excitement and adventure.</p>
+                    <a href="readmoreOne"><button class="card-button" type="button">Read More</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img id="card-image" src="images/akabane.jpg"/>
+                <div class="card-text">
+                    <p id="card-author">Eliza Rosal, June 30, 2024</p>
+                    <p id="card-title">A Local's Guide to Akabane Street: Food, Culture, and Nightlife</p>
+                    <p id="card-paragraph">Akabane Street offers a glimpse into Tokyo's more laid-back and local side. Known for its friendly atmosphere, this neighborhood is perfect for those seeking an authentic Tokyo experience. Wander through its vibrant shopping arcades, savor street food from family-owned stalls, and enjoy the relaxed pace that contrasts with the city's busier districts.</p>
+                    <a href="readmoreTwo"><button class="card-button" type="button">Read More</button></a>
+                </div>
+            </div>
+
+            <% messages.forEach(newEntry => { %>
+                <div class="card">
+                    <img id="card-image" src="<%= newEntry.imagePath %>" />
+                    <div class="card-text">
+                        <p id="card-author"><%= newEntry.authorName %></p>
+                        <p id="card-title"><%= newEntry.blogTitle %></p>
+                        <p id="card-paragraph"><%= newEntry.paraGraph %></p>
+                        <a href="/readmore/<%= newEntry.id %>"><button class="card-button" type="button">Read More</button></a>
+                    </div>
+                </div>
+            <% }); %>
+
+    </div>
+</section>
+
+<%- include("partials/footer.ejs") %>

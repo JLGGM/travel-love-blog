@@ -1,16 +1,30 @@
 [
   {
     "id": 2,
-    "imagePath": "images/yuffieee.jpg",
+    "imagePath": "images/shino-nakamura-UHgogyYReFM-unsplash.jpg",
     "authorName": "Yuffie Kisaragi, July 24, 2024",
-    "blogTitle": "Exploring the world of Gaia",
-    "paraGraph": "Akabane Street offers a glimpse into Tokyo's more laid-back and local side. Known for its friendly atmosphere, this neighborhood is perfect for those seeking an authentic Tokyo experience. Wander through its vibrant shopping arcades, savor street food from family-owned stalls, and enjoy the relaxed pace that contrasts with the city's busier districts. Akabane Street offers a glimpse into Tokyo's more laid-back and local side. Known for its friendly atmosphere, this neighborhood is perfect for those seeking an authentic Tokyo experience. Wander through its vibrant shopping arcades, savor street food from family-owned stalls, and enjoy the relaxed pace that contrasts with the city's busier districts.Akabane Street offers a glimpse into Tokyo's more laid-back and local side. Known for its friendly atmosphere, this neighborhood is perfect for those seeking an authentic Tokyo experience. Wander through its vibrant shopping arcades, savor street food from family-owned stalls, and enjoy the relaxed pace that contrasts with the city's busier districts. Akabane Street offers a glimpse into Tokyo's more laid-back and local side. Known for its friendly atmosphere, this neighborhood is perfect for those seeking an authentic Tokyo experience. Wander through its vibrant shopping arcades, savor street food from family-owned stalls, and enjoy the relaxed pace that contrasts with the city's busier districts."
+    "blogTitle": "Exploring Okinawa, Japan!",
+    "paraGraph": "An archipelago with crystal-clear waters, white sandy beaches, and vibrant coral reefs. It's a paradise for beach lovers and divers.An archipelago with crystal-clear waters, white sandy beaches, and vibrant coral reefs. It's a paradise for beach lovers and divers.An archipelago with crystal-clear waters, white sandy beaches, and vibrant coral reefs. It's a paradise for beach lovers and divers.An archipelago with crystal-clear waters, white sandy beaches, and vibrant coral reefs. It's a paradise for beach lovers and divers.An archipelago with crystal-clear waters, white sandy beaches, and vibrant coral reefs. It's a paradise for beach lovers and divers.An archipelago with crystal-clear waters, white sandy beaches, and vibrant coral reefs. It's a paradise for beach lovers and divers."
   },
   {
     "id": 3,
-    "imagePath": "images/elden-ring-ranni-digital-drawing-wallpaper-fanart-1920x1080-v0-se97qiggljq81.png",
-    "authorName": "Ranni the witch, May 13, 1995",
-    "blogTitle": "Exploring the land of tarnished",
-    "paraGraph": "Test"
+    "imagePath": "images/sorasak-_UIN-pFfJ7c-unsplash.jpg",
+    "authorName": "Yukihira Soma, December 23, 2019",
+    "blogTitle": "Exploring Kyoto, Japan!",
+    "paraGraph": "Known for its classical Buddhist temples, stunning gardens, and traditional wooden houses. Don't miss the iconic Fushimi Inari Shrine with its thousands of red torii gates.Known for its classical Buddhist temples, stunning gardens, and traditional wooden houses. Don't miss the iconic Fushimi Inari Shrine with its thousands of red torii gates.Known for its classical Buddhist temples, stunning gardens, and traditional wooden houses. Don't miss the iconic Fushimi Inari Shrine with its thousands of red torii gates.Known for its classical Buddhist temples, stunning gardens, and traditional wooden houses. Don't miss the iconic Fushimi Inari Shrine with its thousands of red torii gates.Known for its classical Buddhist temples, stunning gardens, and traditional wooden houses. Don't miss the iconic Fushimi Inari Shrine with its thousands of red torii gates."
+  },
+  {
+    "id": 4,
+    "imagePath": "images/catriona-palo-z3vZramK67A-unsplash.jpg",
+    "authorName": "Takodoro Megumi, April 9, 2015",
+    "blogTitle": "Exploring the natural beauty of north!",
+    "paraGraph": "Japan's northernmost island, known for its stunning natural beauty, including hot springs, ski resorts, and the picturesque lavender fields of Furano.Japan's northernmost island, known for its stunning natural beauty, including hot springs, ski resorts, and the picturesque lavender fields of Furano.Japan's northernmost island, known for its stunning natural beauty, including hot springs, ski resorts, and the picturesque lavender fields of Furano.Japan's northernmost island, known for its stunning natural beauty, including hot springs, ski resorts, and the picturesque lavender fields of Furano.Japan's northernmost island, known for its stunning natural beauty, including hot springs, ski resorts, and the picturesque lavender fields of Furano."
+  },
+  {
+    "id": 5,
+    "imagePath": "images/steve-sharp-rVK6Ym16bRY-unsplash.jpg",
+    "authorName": "Tony Tony Chopper, December 25, 2023",
+    "blogTitle": "Exploring one of the most popular destination in Tokyo",
+    "paraGraph": "A popular destination near Tokyo, offering hot springs, scenic views of Mount Fuji, and the beautiful Ashinoko Lake, often with pirate ship cruises.A popular destination near Tokyo, offering hot springs, scenic views of Mount Fuji, and the beautiful Ashinoko Lake, often with pirate ship cruises.A popular destination near Tokyo, offering hot springs, scenic views of Mount Fuji, and the beautiful Ashinoko Lake, often with pirate ship cruises.A popular destination near Tokyo, offering hot springs, scenic views of Mount Fuji, and the beautiful Ashinoko Lake, often with pirate ship cruises.A popular destination near Tokyo, offering hot springs, scenic views of Mount Fuji, and the beautiful Ashinoko Lake, often with pirate ship cruises."
   }
 ]

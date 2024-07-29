@@ -189,11 +189,11 @@
     display: block;
     margin: 0 auto; /* Center the image horizontally */
     margin-bottom: 25px;
-    transition: transform .2s;
+    transition: transform .2s ease-in-out;
 }
 
 #card-image:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .card-text {
